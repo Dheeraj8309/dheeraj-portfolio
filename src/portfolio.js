@@ -18,7 +18,7 @@ const greeting = {
     "Senior Software Engineer | Passionate about Automation, Machine Learning, and Building Smart Tools."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1rwnRorYZP1K1t1eUYA3f45JGdT_EM-nj/view?usp=drive_link",
+    "/resume.pdf",
   displayGreeting: true
 };
 
