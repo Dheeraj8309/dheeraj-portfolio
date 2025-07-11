@@ -18,7 +18,7 @@ const greeting = {
     "Senior Software Engineer | Passionate about Automation, Machine Learning, and Building Smart Tools."
   ),
   resumeLink:
-    "/resume.pdf",
+    "/dheeraj_resume.pdf",
   displayGreeting: true
 };
 
