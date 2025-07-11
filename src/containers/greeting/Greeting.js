@@ -27,7 +27,8 @@ export default function Greeting() {
                   isDark ? "dark-mode greeting-text" : "greeting-text"
                 }
               >
-                {greeting.title} <span className="wave-emoji">{emoji("👋")}</span>
+                {greeting.title}{" "}
+                <span className="wave-emoji">{emoji("👋")}</span>
               </h1>
               <p
                 className={
@@ -46,9 +47,20 @@ export default function Greeting() {
                   <a
                     href={greeting.resumeLink}
                     download
-                    className="download-link-button"
+                    className="main-button"
+                    style={{
+                      marginLeft: "10px",
+                      textDecoration: "none",
+                      display: "inline-block",
+                      padding: "10px 20px",
+                      backgroundColor: "#0a66c2",
+                      color: "#fff",
+                      borderRadius: "5px",
+                      fontWeight: "bold",
+                      fontSize: "14px",
+                    }}
                   >
-                    <Button text="Download my resume" />
+                    Download My Resume
                   </a>
                 )}
               </div>
